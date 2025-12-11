@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhonetes</title>
+    <link rel="stylesheet" href="cor.css">
+</head>
+<body>
+    <header>
+        <h1>RAM</h1>
+        <button class="topo-btn" onclick="voltarParaPrincipal()">Voltar inicio</button>
+    </header>
+
+    <main>
+        <section id="modelos">
+            <h2>RAM TRX </h2>
+            <div class="card">
+                <img src="ramtrx.png" alt="Caminhonete RAM TRX">
+                
+                <h2>RAM TRX</h2>
+            <p class="descricao">A RAM TRX </p>
+
+            <ul>
+                <li><strong>Motor:</strong> V8 6.2 HEMI supercharged</li>
+                <li><strong>Potência:</strong> até 702  cv</li>
+                <li><strong>Torque:</strong> até  881 Nm (torque bruto!)</li>
+                <li><strong>Capacidade de reboque:</strong> até 10.500 kg</li>
+                <li><strong>Transmissão:</strong> Automática de 6 marchas</li>
+                <li><strong>Tração:</strong> 4x4 com reduzida</li>
+            </ul>
+                
+            </div>
+           
+            </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <p>instagram: henriquecandeias_</p>
+            <p>Telefone: (19) 99999-9999</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Caminhonete.</p>
+    </footer>
+    <script>
+        function voltarParaPrincipal() {
+            window.location.href = "index.html"; 
+           
+        }
+    </script>
+
+    <script>
+        function verDetalhes(modelo) {
+            alert("Mais detalhes sobre a " + modelo + " em breve!");
+        }
+
+        function voltarParaTopo() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
